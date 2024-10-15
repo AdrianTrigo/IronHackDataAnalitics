@@ -24,6 +24,14 @@ SELECT COUNT(store_id) FROM store;
 -- 5.2
 SELECT COUNT(staff_id) FROM staff;
 
+-- 5.3
+
+-- 5.3
+SELECT COUNT(*) FROM rental
+WHERE return_date = null;
+
+SELECT COUNT(*) FROM rental;
+
 -- 5.4
 SELECT distinct first_name FROM actor;
 
